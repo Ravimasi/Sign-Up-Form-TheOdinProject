@@ -1,0 +1,107 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Sign Up Form</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="normalize.css" />
+      <script src="https://kit.fontawesome.com/b52aa2c23f.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+        @import url("http://fonts.cdnfonts.com/css/norse");
+      </style>
+      
+    </head>
+    <body>
+      
+      <div class="container">
+        <!-- Background/Odin logo side -->
+        <div class="leftsideBackground">
+          <div class="odin-logo">
+            <img src="./img/odinlogo.png" alt="" />
+            <p class="logo-text">Odin</p>
+          </div>
+          <p class="image-credit">Photo by&#20;<a target="_blank" rel="noreferrer noopener" href="https://unsplash.com/@haliewestphoto">Halie West</a>&#20;on&#20; <a target="_blank" rel="noreferrer noopener" href="https://unsplash.com/">Unsplash</a> </p>
+        </div>
+        <!-- Form section -->
+        <div class="form-section">
+          <div class="descriptionText">
+            <p>
+              This is not a real online service! You know you need something like
+              this in your life to help you realize your deepest dreams.  
+              <p>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p> 
+            </p>
+          </div>
+          <div class="introduction-msg">
+            <h2 id="top"> Let's do this!</h2>
+          </div>
+          <div class="formulary">
+            
+            <form action="" method="get" id="my-form" >
+              <div class="container-inputs1 input-icons">
+                <div>
+                  <p>
+                    <label for="fname">First Name</label>
+                  </p>
+                  <i class="fa fa-user icon"></i>
+                  <input type="text" name="fname" id="fname" required placeholder="John">
+                  
+                </div>
+                <div>
+                  <p>
+                    <label for="lname">Last Name</label>
+                  </p>
+                  <i class="fa fa-user icon"></i>
+                  <input type="text" name="lname" id="lname" required placeholder="Doe">
+                </div>
+              </div>
+              <div class="container-inputs2 input-icons">
+                <div>
+                  <p>
+                    <label for="email">Email</label>
+                  </p>
+                  <i class="fa-solid fa-envelope icon"></i>
+                  <input type="email" name="email" id="email" required placeholder="example@gmail.com">
+                </div>
+                <div>
+                  <p>
+                    <label for="tel">Phone Number</label>
+                  </p>
+                  <i class="fa-solid fa-phone icon"></i>
+                  <input type="tel" name="tel" id="tel" required placeholder="+55 99 999999999">
+                </div>
+              </div>
+              <div class="container-inputs3 input-icons">
+                <div>
+                  <p>
+                    
+                    <label for="password">Password</label>
+                  </p>
+                  <i class="fa-solid fa-lock icon"></i>
+                  <input type="password" name="password" id="password" required class="error pswrd">
+                </div>
+                <div>
+                  <p>
+                    <label for="confirm_pwd">Confirm Passowrd</label>
+                  </p>
+                  <i class="fa-solid fa-lock icon"></i>
+                  <input type="password" name="password" id="confirm_pwd" required class="error c_pswrd">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="buttonArea">
+             <button type="submit" form="my-form">Create Account</button>
+             <p>
+               Already have an account? <a href="#top">Log in</a>
+             </p>
+          </div>
+             
+        </div>
+      </div>
+    </body>
+  </html>
