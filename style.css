@@ -7,7 +7,6 @@
 body{
   font-size: 1.2rem;
   background-color: #F9FAFB;
-  font-family:  system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 .leftsideBackground{
   background: url(./img/leafimage.jpg) no-repeat;
