@@ -1,147 +1,161 @@
-.container{
-  display: block;
-  display: flex;
-  font-family: Josefin Sans, sans-serif;
-  height: 100vh;
-}
-body{
-  font-size: 1.2rem;
-  background-color: #F9FAFB;
-}
-.leftsideBackground{
-  background: url(./img/leafimage.jpg) no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  width: 35vw;
-  min-width: 350px;
-  height: 100vh;
-  color: white;
-  justify-content: center;
-}
-.odin-logo img{
-  width: 8rem;
-  padding: 15px;
-}
-.odin-logo{
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-height:20%;
-  font-family: 'Norse', Arial, Helvetica, sans-serif;
-  position: relative;
-  bottom: 15%;
-}
-.logo-text{
-  font-size: 8.2rem;
-  font-weight: 600;
-}
-.form-section{
-height: 100vh;
-
-}
-.descriptionText{
-  padding: 100px 170px 130px 60px;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.formulary{
-  padding: 5px 0px 30px 60px;
-  box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.213);
-  background-color: white;
-  display: flex;
-  margin-bottom: 5px;
-}
-.introduction-msg {
-  color: #1F2937;
-  padding-left: 60px;
-  background-color: white;
-  display: flex;
-
-}
-.container-inputs1{
-  gap: 5rem;
-  display: flex;
-}
-.container-inputs2{
-  gap: 5rem;
-  display: flex;
-}
-
-.container-inputs3{
-  gap: 5rem;
-  display: flex;
-}
-
-input{
-border-radius: 3px;
-border: 1px solid;
-padding: 5px 30px;
-padding-bottom: 2px;}
-
-label{
-  font-size: 1rem;
-}
-.formulary p {
-  font-size: 1rem;
-  display: flex;
-  margin-block-start: 1em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
- input:focus-visible{
-  outline: rgba(122, 148, 250, 0.834) auto 1px;
-  box-shadow:1px 5px 6px #E5E7EB;
-}
-:invalid::after{
-  border-color: #f13f3c;
-}
-
-.input-icons {
-  width: 100%;
-  margin-bottom: 10px;
-}
-.input-icons i {
-  position: absolute;
-}
-.icon {
-  padding: 7px;
-  min-width: 40px;
-}
-.buttonArea {
-  padding-top: 20px;
-  padding-left: 60px;
-}
-.buttonArea button, button:hover{
-  padding: 15px 60px;
-  background-color: #596D48;
-  color: white;
-  border-radius: 10px;
-  border: #596D48;
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-.container h2{
-  display: block;
-}
-a, a:visited{
- text-decoration: none;
- color: #596D48;
-}
-a:visited{
-  color: #596D48;
-}
-.leftsideBackground .image-credit{
-  display: flex;
-  justify-content: center;
-  position:absolute;
-  bottom: 0px;
-}
-.image-credit a {
-  color: white;
-  opacity: 0.8;
-  text-decoration:underline;
-}
+  @font-face{
+		font-family:norse;
+		font-style:normal;
+		font-weight:400;
+		src:local('Norse'),url(https://fonts.cdnfonts.com/s/16917/Norse.woff) format('woff')
+	}
+		@font-face{
+			font-family:norse;
+			font-style:normal;
+			font-weight:700;
+			src:local('Norse'),url(https://fonts.cdnfonts.com/s/16917/Norsebold.woff) format('woff')
+		}
+	
+	.container{
+		display: block;
+		display: flex;
+		font-family: Josefin Sans, sans-serif;
+		height: 100vh;
+	}
+	body{
+		font-size: 1.2rem;
+		background-color: #F9FAFB;
+	}
+	.leftsideBackground{
+		background: url(./img/leafimage.jpg) no-repeat;
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		width: 35vw;
+		min-width: 350px;
+		height: 100vh;
+		color: white;
+		justify-content: center;
+	}
+	.odin-logo img{
+		width: 8rem;
+		padding: 15px;
+	}
+	.odin-logo{
+		background-color: rgba(0, 0, 0, 0.5);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		max-height:20%;
+		font-family: 'Norse', Arial, Helvetica, sans-serif;
+		position: relative;
+		bottom: 15%;
+	}
+	.logo-text{
+		font-size: 8.2rem;
+		font-weight: 600;
+	}
+	.form-section{
+		height: 100vh;
+		
+	}
+	.descriptionText{
+		padding: 100px 170px 90px 60px;
+		font-size: 1.5rem;
+		font-weight: 600;
+		display: inline-block;
+	}
+	.formulary{
+		padding: 5px 0px 30px 60px;
+		box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.213);
+		background-color: white;
+		display: flex;
+		margin-bottom: 5px;
+	}
+	.introduction-msg {
+		color: #1F2937;
+		padding-left: 60px;
+		background-color: white;
+		display: flex;
+		
+	}
+	.container-inputs1{
+		gap: 5rem;
+		display: flex;
+	}
+	.container-inputs2{
+		gap: 5rem;
+		display: flex;
+	}
+	
+	.container-inputs3{
+		gap: 5rem;
+		display: flex;
+	}
+	
+	input{
+		border-radius: 3px;
+		border: 1px solid;
+		padding: 5px 30px;
+		padding-bottom: 2px;}
+		
+		label{
+			font-size: 1rem;
+		}
+		.formulary p {
+			font-size: 1rem;
+			display: flex;
+			margin-block-start: 1em;
+			margin-block-end: 0em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+		}
+		input:focus-visible{
+			outline: rgba(122, 148, 250, 0.834) auto 1px;
+			box-shadow:1px 5px 6px #E5E7EB;
+		}
+		:invalid::after{
+			border-color: #f13f3c;
+		}
+		
+		.input-icons {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		.input-icons i {
+			position: absolute;
+		}
+		.icon {
+			padding: 7px;
+			min-width: 40px;
+		}
+		.buttonArea {
+			padding-top: 20px;
+			padding-left: 60px;
+		}
+		.buttonArea button, button:hover{
+			padding: 15px 60px;
+			background-color: #596D48;
+			color: white;
+			border-radius: 10px;
+			border: #596D48;
+			font-size: 1.3rem;
+			cursor: pointer;
+		}
+		.container h2{
+			display: block;
+		}
+		a, a:visited{
+			text-decoration: none;
+			color: #596D48;
+		}
+		a:visited{
+			color: #596D48;
+		}
+		.leftsideBackground .image-credit{
+			display: flex;
+			justify-content: center;
+			position:absolute;
+			bottom: 0px;
+		}
+		.image-credit a {
+			color: white;
+			opacity: 0.8;
+			text-decoration:underline;
+		}
