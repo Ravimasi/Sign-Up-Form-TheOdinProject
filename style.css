@@ -30,7 +30,7 @@ body{
   align-items: center;
   width: 100%;
   max-height:20%;
-  font-family: Norse;
+  font-family: Norse, Arial, Helvetica, sans-serif;
   position: relative;
   bottom: 15%;
 }
