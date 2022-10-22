@@ -15,7 +15,7 @@
 		display: block;
 		display: flex;
 		font-family: Josefin Sans, sans-serif;
-		height: 100vh;
+		min-height: 100vh;
 	}
 	body{
 		font-size: 1.2rem;
@@ -23,12 +23,11 @@
 	}
 	.leftsideBackground{
 		background: url(./img/leafimage.jpg) no-repeat;
-		background-size: cover;
+		background-size:cover;
 		display: flex;
 		align-items: center;
 		width: 35vw;
 		min-width: 350px;
-		height: 100vh;
 		color: white;
 		justify-content: center;
 	}
@@ -52,14 +51,13 @@
 		font-weight: 600;
 	}
 	.form-section{
-		height: 100vh;
+		height: 100h;
 		
 	}
 	.descriptionText{
-		padding: 100px 170px 90px 60px;
+		padding: 100px 170px 130px 60px;
 		font-size: 1.5rem;
 		font-weight: 600;
-		display: inline-block;
 	}
 	.formulary{
 		padding: 5px 0px 30px 60px;
@@ -139,7 +137,7 @@
 			cursor: pointer;
 		}
 		.container h2{
-			display: block;
+			display: flex
 		}
 		a, a:visited{
 			text-decoration: none;
@@ -159,3 +157,12 @@
 			opacity: 0.8;
 			text-decoration:underline;
 		}
+@media screen and (max-height: 908px) {
+	.form-section{
+		height: 100%;
+	}
+	.buttonArea{
+		height: 100%;
+		display: inline;
+	}
+}
